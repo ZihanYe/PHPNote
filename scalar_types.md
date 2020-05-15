@@ -2,12 +2,6 @@
 
 ## boolean
 
-```php
-<?php
-$foo = True; // assign the value TRUE to $foo
-?>
-```
-
 **display:**
 
 ```php

@@ -57,6 +57,7 @@ function global_references()
 4. reference of array variables
 
 ```php
+<?php
 /* Assignment of array variables */
 $arr = array(1);
 $a =& $arr[0]; //$a and $arr[0] are in the same reference set
@@ -64,9 +65,11 @@ $arr2 = $arr; //not an assignment-by-reference!
 $arr2[0]++;
 /* $a == 2, $arr == array(2) */
 /* The contents of $arr are changed even though it's not a reference! */
+?>
 ```
 
 ```php
+<?php
 
 $v1=0;
 $arrV=array(&$v1,&$v1);
@@ -95,4 +98,5 @@ yields
 1
 2
 */
+?>
 ```

@@ -1,6 +1,6 @@
-#PHP note
+# PHP note
 
-- types
+- [scalar types](scalar_types.md)
 
 - array
 

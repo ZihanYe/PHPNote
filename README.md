@@ -6,7 +6,7 @@
 
 - class & object
 
-- variable
+- [variable](variable.md)
 
 - namespace
 
@@ -15,4 +15,3 @@
 - [generator](generator.md)
 
 - function
-

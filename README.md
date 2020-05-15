@@ -8,6 +8,8 @@
 
 - [variable](variable.md)
 
+- [reference](reference.md)
+
 - namespace
 
 - control flow

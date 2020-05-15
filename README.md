@@ -12,7 +12,7 @@
 
 - control flow
 
-- generator
+- [generator](generator.md)
 
 - function
 

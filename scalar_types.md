@@ -2,15 +2,15 @@
 
 ## boolean
 
-```
+```php
 <?php
 $foo = True; // assign the value TRUE to $foo
 ?>
 ```
 
-**Display:**
+**display:**
 
-```
+```php
 <?php
 $var1 = TRUE;
 $var2 = FALSE;
@@ -21,9 +21,9 @@ echo $var2; //Will display nothing
 echo (int)$var2; //This will display the number 0 for false.
 ```
 
-**Precedence:**
+**precedence:**
 
-```
+```php
 <?php
 $x=TRUE;
 $y=FALSE;
@@ -32,9 +32,9 @@ $z=$y || $x; // this is equivalent to $z=($y OR $x), so is TRUE
 ?>
 ```
 
-**Conversion to boolean:**
+**conversion to boolean:**
 
-```
+```php
 <?php
 var_dump((bool) "");        // bool(false)
 var_dump((bool) 1);         // bool(true)
@@ -51,9 +51,9 @@ $a = !!array();   // This will === false;
 ?>
 ```
 
-**Implicit conversion:**
+**implicit conversion:**
 
-```
+```php
 // someKey is a boolean true
 $array = array('someKey'=>true);
 
